@@ -1,7 +1,15 @@
 p {
+    font-size: 3em;
     color: white;
 }
 
 body {
     background-color: rgb(50, 10, 88)
+}
+
+#mainstuff {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
