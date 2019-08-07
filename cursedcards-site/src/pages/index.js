@@ -12,7 +12,6 @@ const IndexPage = () => (
         < div class="container"><h1>The best cards on the net.</h1>
     <p>lets sell some cards!</p>
     <p>Now go build something great.</p></div>
-    </div>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <img src="/hmmmmmmmm.jpg"/>
     </div>
