@@ -13,3 +13,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+#bigtext {
+    
+    font-size: 5em;
+}
