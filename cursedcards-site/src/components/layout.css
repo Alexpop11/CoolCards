@@ -629,5 +629,6 @@ pre tt:after {
 }
 
 .item {
-  width: 20em;
+  height: 10em;
+  width: 30em;
 }
