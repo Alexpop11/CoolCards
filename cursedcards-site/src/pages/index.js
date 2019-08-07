@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-        <div class="item" div class="container">><h1>The best cards on the net.</h1>
+        < div class="container" div class="item">><h1>The best cards on the net.</h1>
     <p>lets sell some cards!</p>
     <p>Now go build something great.</p></div>
     </div>
