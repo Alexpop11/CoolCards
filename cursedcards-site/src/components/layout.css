@@ -623,12 +623,18 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.widthcontroller {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 0px 1.0875rem 1.45rem;
+  padding-top: 0;
+}
+
 .container {
   margin-top: 2em;
   margin-bottom: 2em;
   margin-left: 2.5em;
   margin-right: 2.5em;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -636,18 +642,41 @@ pre tt:after {
 .bigcontainer {
   margin-top: 5em;
   margin-bottom: 2em;
-  margin-left: 1-em;
-  margin-right: 10em;
+  margin-left: 1em;
+  margin-right: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .bigbox {
-  margin-left: 5em;
-  margin-right: 5em;
+  display: flex;
+  flex-direction: column;
+  margin-left: .5em;
+  margin-right: .5em;
   margin-top: 7em;
   margin-bottom: 7em;
   background-color: white;
+  box-shadow: 0em 0em 2em black;
   }
   
+
+
+  
+@media (max-width: 780px) { 
+  .widthcontroller {
+    max-width: 98%;
+    padding: 0px .2875rem .45rem;
+  }
+
+  
+
+  .bigbox {
+    
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .7em;
+    margin-bottom: .7em;
+  }
+
+}
