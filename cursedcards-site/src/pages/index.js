@@ -10,14 +10,16 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div class="bigbox">
-      <div class="container">
+      <div class="bigcontainer">
         <h1>The best cards on the net.</h1>
       </div>
       <div class="container">
-        <p>lets sell some cards!</p>
+        <p>Here you can see our grand selection of cards.
+           there are none currently, because this website is
+            under construction, dummy. </p>
       </div>
       <div class="container">
-        <p>Now go build something great.</p>
+        <p>There will be soon, though.</p>
       </div>
     </div>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>

@@ -624,8 +624,8 @@ pre tt:after {
   }
 }
 .container {
-  margin-top: 5em;
-  margin-bottom: 5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   margin-left: 2.5em;
   margin-right: 2.5em;
   display: flex;
@@ -633,10 +633,21 @@ pre tt:after {
   justify-content: center;
 }
 
-.bigbox {
-margin-left: 5em;
-margin-right: 5em;
-margin-top: 7em;
-margin-bottom: 7em;
-background-color: white;
+.bigcontainer {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  margin-left: 1-em;
+  margin-right: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.bigbox {
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 7em;
+  margin-bottom: 7em;
+  background-color: white;
+  }
+  
