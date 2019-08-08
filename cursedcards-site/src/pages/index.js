@@ -23,6 +23,12 @@ const IndexPage = () => (
       </div>
     </div>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <div className="container">
+        <p 
+          style={{
+            backgroundColor: `rgb(255,255,255)`
+          }} > And now an advert from our sponsor:</p>
+      </div>
       <img src="/hmmmmmmmm.jpg"/>
     </div>
     <Link to="/page-2/">Go to page 2</Link>
