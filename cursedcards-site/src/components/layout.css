@@ -4,6 +4,8 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  background-size: 4em;
+  background-image: url("/background.png");
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -622,9 +624,19 @@ pre tt:after {
   }
 }
 .container {
-  height: 10em;
-  width: 50em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.bigbox {
+margin-left: 5em;
+margin-right: 5em;
+margin-top: 7em;
+margin-bottom: 7em;
+background-color: white;
 }
