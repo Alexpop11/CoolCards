@@ -1,0 +1,10 @@
+- name: name1
+  slug: slug1
+  pic: pic1
+  backpic: backpic1
+
+- name: name2
+  slug: slug2
+  pic: pic2
+  backpic: backpic2
+

@@ -27,9 +27,7 @@ const IndexPage = () => (
         <h1>The best cards on the net.</h1>
       </div>
       <div className="container">
-        <p>Here you can see our grand selection of cards.
-           there are none currently, because this website is
-            under construction, dummy. </p>
+        <p>Here you can see our grand selection of cards. there are none currently,  because this website is under construction, dummy. </p>
       </div>
       <div className="container">
         <p>There will be soon, though.</p>
@@ -38,11 +36,11 @@ const IndexPage = () => (
 
     <div className="cardgrid">
        <Card pic="/Minion-link/Minionlink-front.png" insidepic="/Minion-link/Minionlink-inside-preview.png" name="minimalist"/>
-       <Card pic="/Obama-Yoda/Obama-Yoda-Preview.png"  insidepic="/Obama-Yoda/Obama-Yoda-Inside.png" name="My Friend Obama"/>
+       <Card pic="/Obama-Yoda/Obama-Yoda-Preview.png"  insidepic="/Obama-Yoda/Obama Yoda-Inside.png" name="My Friend Obama"/>
        <Card pic="/Minion-link/Minionlink-front.png" insidepic="/Minion-link/Minionlink-inside-preview.png" name="minimalist"/>
-       <Card pic="/Obama-Yoda/Obama-Yoda-Preview.png"  insidepic="/Obama-Yoda/Obama-Yoda-Inside.png" name="My Friend Obama"/>
+       <Card pic="/Obama-Yoda/Obama-Yoda-Preview.png"  insidepic="/Obama-Yoda/Obama Yoda-Inside.png" name="My Friend Obama"/>
        <Card pic="/Minion-link/Minionlink-front.png" insidepic="/Minion-link/Minionlink-inside-preview.png" name="minimalist"/>
-       <Card pic="/Obama-Yoda/Obama-Yoda-Preview.png"  insidepic="/Obama-Yoda/Obama-Yoda-Inside.png" name="My Friend Obama"/>
+       <Card pic="/Obama-Yoda/Obama-Yoda-Preview.png"  insidepic="/Obama-Yoda/Obama Yoda-Inside.png" name="My Friend Obama"/>
     </div>
 
 
