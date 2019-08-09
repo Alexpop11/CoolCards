@@ -660,7 +660,25 @@ pre tt:after {
   box-shadow: 0em 0em 2em black;
   }
   
+.cardgrid {
+  display: grid;
+  grid-column-gap: 5%;
+  grid-row-gap: 1em;
+  grid-template-columns: 30% 30% 30% ;
+}
 
+.card {
+  background-color: #fff;
+  box-shadow: 0em 0em 2em black;
+}
+
+.cardpic {
+  box-shadow: 0em 0em 2em black;
+}
+.cardpic:hover {
+  box-shadow: 0em 0em 4em black;
+
+}
 
   
 @media (max-width: 780px) { 
@@ -669,6 +687,13 @@ pre tt:after {
     padding: 0px .2875rem .45rem;
   }
 
+  .cardgrid {
+    display: grid;
+    grid-column-gap: 5%;
+    grid-row-gap: 1em;
+    grid-template-columns: 100% ;
+  }
+  
   
 
   .bigbox {
