@@ -24,6 +24,7 @@ exports.createPages = async ({ graphql, actions }) => {
         node {
           name
           pic
+          backpic
           slug
         }
       }
@@ -40,6 +41,9 @@ exports.createPages = async ({ graphql, actions }) => {
             // Data passed to context is available
             // in page queries as GraphQL variables.
             slug: node.slug,
+            name: node.name,
+            pic: node.pic,
+            backpic: node.backpic
           },
         })
     })

@@ -4,13 +4,17 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = (slug) => (
+const SecondPage = (pageNode) => {
+  let context = pageNode.pageContext
+  return (
   <Layout>
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <div className="bigbox bigpicturewidth"><h1>{context.name}</h1></div>
+    <img className="bigpicturewidth" src={context.pic} />
+    
     <Link to="/">Go back to the homepage</Link>
   </Layout>
-)
+  )
+}
 
 export default SecondPage

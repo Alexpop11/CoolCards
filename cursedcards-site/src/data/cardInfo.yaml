@@ -1,10 +1,16 @@
-- name: name1
-  slug: slug1
-  pic: pic1
-  backpic: backpic1
+- name: minimalist
+  slug: minimalist
+  pic: /Minion-link/Minionlink-front.png
+  backpic: /Minion-link/Minionlink-inside-preview.png
+  description: this basic card will ensure your friend knows that you are a epic memer but yous still have a sense of style
+  size: 5" x 7"
+  price: 299
 
-- name: name2
-  slug: slug2
-  pic: pic2
-  backpic: backpic2
+- name: My Friend Obama
+  slug: my-friend-obama
+  pic: /Obama-Yoda/Obama-Yoda-Preview.png
+  backpic: /Obama-Yoda/Obama-Yoda-Inside.png
+  description: This card combines your two favorite fictional characters on the front, and the inside contains a heartwarming message from the only character Thanos was afraid to fight.
+  size: 5" x 7"
+  price: 299
 

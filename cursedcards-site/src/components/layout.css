@@ -649,6 +649,10 @@ pre tt:after {
   justify-content: center;
 }
 
+.bigpicturewidth {
+  width: 45%
+}
+
 .bigbox {
   display: flex;
   flex-direction: column;
