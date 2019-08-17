@@ -32,13 +32,13 @@ export default ( {data} ) => {
       <SEO title="Home" />
       <div className="bigbox">
         <div className="bigcontainer">
-          <h1>The best cards on the net.</h1>
+          <h1>Cards for cool people.</h1>
         </div>
         <div className="container">
-          <p>Here you can see our grand selection of cards. there are none currently,  because this website is under construction, dummy. </p>
+          <p>Here you can see our grand selection of cards.</p>
         </div>
         <div className="container">
-          <p>There will be soon, though.</p>
+          <p>This website is under construction.</p>
         </div>
       </div>
 

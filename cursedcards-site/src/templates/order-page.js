@@ -11,6 +11,7 @@ const SecondPage = (pageNode) => {
     <SEO title="Page two" />
     <div className="bigbox bigpicturewidth"><h1>{context.name}</h1></div>
     <img className="bigpicturewidth" src={context.pic} />
+    <div className= "bigbox bigpicturewidth"><h1>{context.description}</h1></div>
     
     <Link to="/">Go back to the homepage</Link>
   </Layout>
