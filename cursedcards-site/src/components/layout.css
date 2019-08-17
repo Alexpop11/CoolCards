@@ -662,6 +662,7 @@ pre tt:after {
   margin-bottom: 7em;
   background-color: white;
   box-shadow: 0em 0em 2em black;
+  padding: 0.3em;
   }
   
 .cardgrid {
@@ -670,6 +671,13 @@ pre tt:after {
   grid-row-gap: 1em;
   grid-template-columns: 30% 30% 30% ;
 }
+.ordergrid {
+  display: grid;
+  grid-column-gap: 6%;
+  grid-row-gap: 1em;
+  grid-template-columns: 47% 47% ;
+}
+
 
 .card {
   background-color: #fff;
@@ -698,6 +706,14 @@ pre tt:after {
     grid-template-columns: 100% ;
   }
   
+  .ordergrid {
+    display: grid;
+    grid-column-gap: 5%;
+    grid-row-gap: 1em;
+    grid-template-columns: 100%
+  }
+  
+
   
 
   .bigbox {

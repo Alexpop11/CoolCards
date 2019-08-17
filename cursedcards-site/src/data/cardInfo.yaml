@@ -5,6 +5,7 @@
   description: this basic card will ensure your friend knows that you are a epic memer but yous still have a sense of style
   size: 5" x 7"
   price: 299
+  SKU: ""
 
 - name: My Friend Obama
   slug: my-friend-obama
@@ -13,4 +14,4 @@
   description: This card combines your two favorite fictional characters on the front, and the inside contains a heartwarming message from the only character Thanos was afraid to fight.
   size: 5" x 7"
   price: 299
-
+  SKU: sku_Fdort9fxpu4t1Q	

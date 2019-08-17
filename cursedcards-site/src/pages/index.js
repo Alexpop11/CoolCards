@@ -25,7 +25,9 @@ export default ( {data} ) => {
   let cards = data.allCardInfoYaml.edges
   console.log(cards)
 
-  let cardComponents = cards.map(({node}, index) => <Card key={index} l={node.slug} pic={node.pic} insidepic={node.backpic} name={node.name}/>)
+  let cardComponents = cards.map(({node}, index) => 
+    <Card key={index} l={node.slug} pic={node.pic} insidepic={node.backpic} name={node.name}/>
+  )
 
   return (
     <Layout>

@@ -5,6 +5,7 @@ module.exports = {
     author: `Alex Popovitch`,
   },
   plugins: [
+    "gatsby-plugin-stripe",
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,

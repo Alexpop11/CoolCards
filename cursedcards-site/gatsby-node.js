@@ -29,6 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
           description
           size
           price
+          SKU
         }
       }
     }
