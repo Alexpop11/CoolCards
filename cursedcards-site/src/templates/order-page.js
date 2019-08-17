@@ -31,6 +31,7 @@ const Checkout = class extends React.Component {
       items: [{ sku: this.props.SKU, quantity: 1 }],
       successUrl: `http://localhost:8000/page-2/`,
       cancelUrl: `http://localhost:8000/`,
+      shipping: true,
     })
     if (error) {
       console.warn("Error:", error)
@@ -60,10 +61,10 @@ const OrderPage = (pageNode) => {
       <div style={{margin: "0.5em"}} className="bigbox "><h1>{context.name}</h1></div>
       <div></div>
       <img style={{width: '100%'}} src={context.pic} />
-      <div style={{margin: "0.5em", padding: "1em",}} className= "bigbox"><h3>{context.description}</h3></div>
+      <div style={{margin: "0.5em", padding: "1em",}} className= "bigbox"><h3>{context.description}</h3>
+      <Checkout SKU={context.SKU}/></div>
     </div>
     <Link to="/">Go back to the homepage</Link>
-    <Checkout SKU={context.SKU}/>
   </Layout>
   )
 }
