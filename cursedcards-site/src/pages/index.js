@@ -34,13 +34,13 @@ export default ( {data} ) => {
       <SEO title="Home" />
       <div className="bigbox">
         <div className="bigcontainer">
-          <h1>Cards for cool people.</h1>
+          <h1>Ironic Cards for cool people.</h1>
         </div>
         <div className="container">
-          <p>Here you can see our grand selection of cards.</p>
+          <p>Here you can see our grand selection of cards. These cards are inspired by subreddits like r/okbuddyretard, and r/comedyheaven.</p>
         </div>
         <div className="container">
-          <p>This website is under construction.</p>
+          <p>This website is under construction. All of the cards on display here suck, and will most likely undergo many changes before being available.</p>
         </div>
       </div>
 
@@ -58,7 +58,6 @@ export default ( {data} ) => {
         </div>
         <img src="/hmmmmmmmm.jpg"/>
       </div>
-      <Link to="/page-2/">Go to page 2</Link>
     </Layout>
   )
 }

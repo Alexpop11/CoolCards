@@ -665,6 +665,9 @@ pre tt:after {
   padding: 0.3em;
   }
   
+.orderFormGrid {
+  display: flex;
+}
 .cardgrid {
   display: grid;
   grid-column-gap: 5%;

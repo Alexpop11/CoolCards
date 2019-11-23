@@ -2,7 +2,7 @@
   slug: minimalist
   pic: /Minion-link/Minionlink-front.png
   backpic: /Minion-link/Minionlink-inside-preview.png
-  description: this basic card will ensure your friend knows that you are a epic memer but yous still have a sense of style
+  description: This card shows you are up to date with "Memes" and how to use the internet. This is a great card to get for your grandson!
   size: 5" x 7"
   price: 299
   SKU: ""
@@ -11,7 +11,16 @@
   slug: my-friend-obama
   pic: /Obama-Yoda/Obama-Yoda-Preview.png
   backpic: /Obama-Yoda/Obama-Yoda-Inside.png
-  description: This card combines your two favorite fictional characters on the front, and the inside contains a heartwarming message from the only character Thanos was afraid to fight.
+  description: This card combines your two favorite fictional characters on the front, and on the inside contains a heartwarming message from the only character Thanos was afraid to fight.
   size: 5" x 7"
   price: 299
-  SKU: sku_Fdort9fxpu4t1Q	
+  SKU: sku_Fdort9fxpu4t1Q
+
+- name: Obama Joker
+  slug: obama-joker
+  pic: /Obama-Gangam/Obama-Gangam-Front.png
+  backpic: /Obama-Gangam/Obama-Gangam-Inside.png
+  description: Show your crazy side! Just like Obama, You too can be a villain in a DC movie.
+  size: 5" x 7"
+  price: 299
+  SKU: ""
