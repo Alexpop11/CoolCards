@@ -31,7 +31,6 @@ const Checkout = class extends React.Component {
       items: [{ sku: this.props.SKU, quantity: 1 }],
       successUrl: `http://localhost:8000/page-2/`,
       cancelUrl: `http://localhost:8000/`,
-      
 
     })
     if (error) {
@@ -56,7 +55,7 @@ const OrderForm = ({props}) => {
           style={buttonStyles}
           onClick={event => props.redirectToCheckout(event)}
         >
-          BUY CARD
+          ORDER CARD
       </button>
       <div>
       <input 
