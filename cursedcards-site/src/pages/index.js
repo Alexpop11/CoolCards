@@ -37,26 +37,15 @@ export default ( {data} ) => {
           <h1>Cards for cool people. And you.</h1>
         </div>
         <div className="container">
-          <p>Here you can see our grand selection of cards. These cards are inspired by subreddits like r/okbuddyretard, and r/comedyheaven.</p>
+          <p>Here you can see our grand selection of cards. These cards are inspired by Present-day memes, Gen-Z culture, and various subreddits.</p>
         </div>
         <div className="container">
-          <p>This website is under construction. All of the cards on display here are incomplete, and will most likely undergo many changes before being available.</p>
+          <p>The cards you see here are not currently available. They are not a finished product, and are only displayed to demonstrate the function of the website.</p>
         </div>
       </div>
 
       <div className="cardgrid">
         {cardComponents}
-      </div>
-
-
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <div className="container">
-          <p 
-            style={{
-              backgroundColor: `rgb(255,255,255)`
-            }} > And now an advert from our sponsor:</p>
-        </div>
-        <img src="/hmmmmmmmm.jpg"/>
       </div>
     </Layout>
   )

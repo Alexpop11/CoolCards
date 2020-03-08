@@ -267,7 +267,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 89%, 0.795);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -277,6 +277,8 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+
 img {
   max-width: 100%;
   margin-left: 0;
@@ -445,7 +447,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  color: black;
+  color: hsla(0, 0%, 89%, 0.795);
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -722,11 +724,11 @@ pre tt:after {
 .bigbox {
   display: flex;
   flex-direction: column;
-  margin-left: .5em;
-  margin-right: .5em;
+  margin-left: .2em;
+  margin-right: .2em;
   margin-top: 7em;
   margin-bottom: 7em;
-  background-color: white;
+  background-color: rgb(50, 61, 73);
   box-shadow: 0em 0em 2em black;
   padding: 0.3em;
   }
